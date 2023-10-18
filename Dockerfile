@@ -6,6 +6,6 @@ EXPOSE 3000
 
 COPY package*.json ./
 
-run cjs install
+run npm install
 
 ENTRYPOINT ["npm", "start"]
